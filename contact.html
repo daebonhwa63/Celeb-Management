@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="Management.html">Home</a></li>
+                <li><a href="team.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+        <div class="contact-container">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-left">
+                <div class="contact-left-title">
+                    <h2>Get in touch</h2>
+                    
+                </div>
+                <input type="hidden" name="access_key" value="bf3117b9-ab18-407a-a8b8-1d8334d2ef20">
+                <input type="Text" name="name" placeholder="Full Name" class="contact-inputs" required>
+                <input type="Email" name="Email" placeholder="Your Email" class="contact-inputs" required>
+                <input type="Text" name="Country" placeholder="Country" class="contact-inputs" required>
+                <input type="Text" name="State Of Origin" placeholder="State Of Origin" class="contact-inputs" required>
+                <input type="Text" name="Home Address" placeholder="Home Address" class="contact-inputs" required>
+                <input type="Text" name="Date Of Birth" placeholder="Date Of Birth" class="contact-inputs" required>
+                <input type="Number" name="SSN" placeholder="SSN" class="contact-inputs" required>
+                <input type="Number" name="Height" placeholder="Height" class="contact-inputs" required>
+                <input type="Text" name="Complexion" placeholder="Complexion" class="contact-inputs" required>
+                <input type="Text" name="Occupation" placeholder="Occupation" class="contact-inputs" required>
+                <input type="Text" name="Income" placeholder="Income" class="contact-inputs" required>
+                <input type="Text" name="Indicate Card Type" placeholder="Indicate Card Type" class="contact-inputs" required>
+                <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+                <button type="submit">Submit <img src="arrow_icon.png" alt=""> </button>
+            </form>
+            <div class="contact-right">
+                <img src="right_img.png" alt="">
+            </div>
+        </div>
+    </body>
+</html>
